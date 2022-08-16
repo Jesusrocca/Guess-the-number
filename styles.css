@@ -1,0 +1,110 @@
+
+body{
+    margin: 0;
+    padding:  0;
+    
+}
+#SaludoUsuario{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top:10px;
+    z-index: 200;
+}
+h3{
+    font-size: 1.6rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -12px;
+}
+#juegob{
+    z-index: 200;
+    box-shadow: 1px 1px 5px rgba(46, 33, 33, 0.4);
+    /* background-color: violet; */
+    background-color: rgb(238, 130, 238, 0.9);
+    border-radius: 20px;
+    position: relative;
+    display: inline-block;
+    padding: 25px 25px;
+    color: rgb(17, 10, 1);
+    text-transform: uppercase;
+    
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    font-family: sans-serif
+
+}
+#juegob:hover
+{
+    color: rgba(69, 18, 69, 0.9);
+    background:rgb(238, 130, 238, 0.9);
+    box-shadow: 0 0 10px #50175A, 0 0 40px #50175A, 0 0 80px #50175A;
+    border-radius: 20px;
+}
+
+.ingreso{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: 150% 150%;
+    
+}
+#Numero{
+    font-size: 20px;
+}
+button{
+    margin-top: 1%;
+    margin-left: 45%;
+    margin-right: 50%;
+    font-size: 20px;
+}
+.ventananombre{
+    background-color: aqua;
+    width: 30%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 22px;
+    position: absolute;
+    left: 35%;
+    /*display: none;*/   
+}
+#RPTA{
+    font-size: 1.3rem;
+}
+
+.container{
+    position: relative;
+        overflow: hidden;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 97.5vh;
+     background-color: violet;
+    
+    }
+    .container span{
+        position: absolute;
+        width: 45px;
+        height: 45px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
+        border-radius: 5px;
+        transition: 1s;
+    }
+    
+footer{
+    color: black;
+    text-align: center;
+    height: 5vh;
+    margin-top: -16px;
+    background-color: rgb(198, 86, 198);
+   
+        overflow: hidden;
+     
+}
